@@ -1,5 +1,6 @@
 :root {
   --paragraph-color: #757575;
+  --set-card-gap: 30px;
 }
 
 
@@ -13,9 +14,6 @@ html {
   box-sizing: inherit;
 }
 
-* {
-  outline: 1px solid red;
-}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -221,7 +219,7 @@ img {
 }
 
 .values .values-list:not(:last-child) {
-  margin-right: 30px;
+  margin-right: var(--set-card-gap);
 }
 
 .title-values {
@@ -254,7 +252,7 @@ img {
 }
 
 .presentation .work-view:not(:last-child) {
-  margin-right: 30px;
+  margin-right: var(--set-card-gap);
 }
 
 .section-title {
@@ -277,7 +275,7 @@ img {
 }
 
 .team-cards .data-cards:not(:last-child) {
-  margin-right: 30px;
+  margin-right: var(--set-card-gap);
 }
 
 .team {
@@ -349,8 +347,8 @@ img {
 }
 
 .card {
-  margin-right: 30px;
-  margin-bottom: 30px;
+  margin-right: var(--set-card-gap);
+  margin-bottom: var(--set-card-gap);
 }
 
 .card:nth-child(3n) {
