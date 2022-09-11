@@ -3,7 +3,6 @@
   --set-card-gap: 30px;
 }
 
-
 html {
   box-sizing: border-box;
 }
@@ -13,7 +12,6 @@ html {
 *::after {
   box-sizing: inherit;
 }
-
 
 body {
   font-family: "Roboto", sans-serif;
@@ -81,7 +79,7 @@ img {
 /*Header*/
 
 .header {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 .logo {
@@ -169,6 +167,11 @@ img {
 
 /*Hero*/
 
+.hero-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .hero {
   text-align: center;
   background-color: #2f303a;
@@ -193,7 +196,7 @@ img {
   display: inline-block;
   padding: 10px 32px;
   min-width: 216px;
-  
+
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -272,6 +275,11 @@ img {
 
 .data-cards {
   width: calc((100%-90px) / 4);
+  background-color: #ffffff;
+  border: none;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-cards .data-cards:not(:last-child) {
